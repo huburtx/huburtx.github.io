@@ -75,6 +75,10 @@ body{
   width: 100%;
 }
 
+.header-home-link > a{
+  text-decoration: none;
+}
+
 .header img, .header h1{
   color: white;
   display: inline-block;
