@@ -51,7 +51,7 @@ body{
   width: 100%;
 }
 
-.header-home-link{
+.header-home-link > a{
   text-decoration: none;
 }
 
