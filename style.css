@@ -83,7 +83,7 @@ body{
 }
 
 .menu li {
-
+  width: 100%;
   padding: 8px;
   margin-bottom: 7px;
   background-color: rgba(50,50,50,0.8);
