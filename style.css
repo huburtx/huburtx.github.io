@@ -51,6 +51,10 @@ body{
   width: 100%;
 }
 
+.header-home-link{
+  text-decoration: none;
+}
+
 .header img, .header h1{
   color: white;
   display: inline-block;
@@ -70,6 +74,7 @@ body{
 
 .menu ul > a{
   text-decoration: none;
+  position: absolute;
 }
 
 .menu ul {
