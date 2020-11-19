@@ -5,18 +5,18 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* .row::after {
+.row::after {
   content: "";
   clear: both;
   display: block;
-} */
+}
 
-.row::after{
+/* .row::after{
   content: '';
   display: table;
-  /* overflow: hidden; */
+  overflow: hidden;
   clear: both;
-}
+} */
 
 [class*="col-"] {
   float: left;
