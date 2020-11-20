@@ -73,6 +73,7 @@ body{
 }
 
 .menu > a{
+  width: 100%;
   text-decoration: none;
 }
 
@@ -136,10 +137,11 @@ body{
   padding: 25px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  float: left;
   position: relative;
-  margin: auto;
   margin-bottom: 105px;
-  text-align: center;
+  margin-left: 3%;
+  text-align: left;
 }
 
 .footer {
@@ -198,8 +200,10 @@ body{
 /* Slideshow container */
 .slideshow-container {
   width: 65%;
+  float: left;
   position: relative;
-  margin: auto;
+  left: 17%;
+  margin-bottom: 50px;
 }
 
 /* Caption text */
@@ -219,7 +223,7 @@ body{
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 0;
+  bottom: 36px;
 }
 
 /* The dots/bullets/indicators */
