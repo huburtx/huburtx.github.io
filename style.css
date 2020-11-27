@@ -11,21 +11,10 @@
   display: block;
 }
 
-/* .row::after{
-  content: '';
-  display: table;
-  overflow: hidden;
-  clear: both;
-} */
-
 [class*="col-"] {
   float: left;
   padding: 15px;
 }
-
-/* html {
-  font-family: "Lucida Sans", sans-serif;
-} */
 
 body{
   height: 138vh;
@@ -77,12 +66,6 @@ body{
   text-decoration: none;
 }
 
-/* .menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-} */
-
 .menu .option {
   width: 100%;
   padding: 8px;
@@ -118,10 +101,6 @@ body{
 .col-3.right{
   margin-bottom: 30px;
 }
-
-/* .col-3.menu{
-  margin-top: 70px;
-} */
 
 .layover > h1{
   text-align: center;
@@ -177,12 +156,7 @@ body{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-
 /* qui inizia lo slide */
-
-/* .slideshow-all{
-  width: 100%;
-} */
 
 .mySlides {
   display: none;
@@ -198,6 +172,7 @@ body{
 }
 
 /* Slideshow container */
+
 .slideshow-container {
   width: 65%;
   float: left;
@@ -207,6 +182,7 @@ body{
 }
 
 /* Caption text */
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -246,6 +222,7 @@ body{
 }
 
 /* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -265,9 +242,11 @@ body{
 
 
 /* @media only screen and (max-width: 768px) { */
+
 @media only screen and (max-width: 500px) {
 
   /* For mobile phones: */
+  
   [class*="col-"] {
     width: 100%;
   }
